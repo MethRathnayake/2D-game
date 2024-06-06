@@ -1,0 +1,42 @@
+.background{
+    background-image: url(img/background.png);
+    background-size: 100%;
+    overflow: hidden;
+}
+
+.boy{
+    height: 250px;
+    margin-top: 385px;
+    position: absolute;
+}
+.score{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.flame{
+    height: 130px;
+    margin-top: 510px;
+    position: absolute;
+    
+}
+.gameover{
+        width: 100%;
+        height: 100vh;
+        background-image: url('img/gameover.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    
+}
+.youwin{
+    width: 100%;
+        height: 100vh;
+        background-image: url('img/youwin.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+
+}
